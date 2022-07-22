@@ -1,5 +1,98 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+}
 
-p {
-    font-family: Roboto;
+.header {
+    display: flex;
+    background-color: #146152;
+    height: 8vw;
+    align-items: center;
+}
+
+.header img {
+    width: 6vw;
+    padding-left: 3vw;
+}
+
+ul {
+    display: flex;
+    padding-left: 0;
+    margin-left: auto;
+    padding-right: 3vw;
+    gap: 2vw;
+}
+
+li {
+    list-style: none;
+}
+
+.right-items {
+    margin-left: auto;
+}
+
+.hero-content {
+    background-color: #44803F;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+}
+
+.hero-text-box {
+    background-color: #146152;
+    width: 30vw;
+    height: 20vw;
+}
+
+.hero-text-title {
+    color: white;
+    padding: 1vw;
+    padding-bottom: 0;
+    margin: 0;
+    overflow-wrap: break-word;
+    font-size: 3vw;
     font-weight: bold;
+}
+
+.hero-text-subtext {
+    color: white;
+    padding: 1vw;
+    margin: 0;
+    overflow-wrap: break-word;
+    font-size: 1.5vw;
+}
+
+.hero-text-box button {
+    margin: 1vw;
+    background-color: #FFEC5C;
+    color: black;
+    border: none;
+    border-radius: .5vw;
+    padding: 0.1vw 1vw;
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+.hero-image {
+    background-color: #FF5A33;
+    width: 30vw;
+    height: 20vw;
+}
+
+.random-info-content {
+    background-color: #B4CF66;
+    height: 40vw;
+}
+
+.testimonial {
+    background-color: #FFEC5C;
+    height: 40vw;
+}
+
+.footer {
+    background-color: #FF5A33;
+    height: 20vw;
 }
